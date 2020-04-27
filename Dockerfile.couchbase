@@ -1,0 +1,4 @@
+FROM couchbase/server-sandbox:6.5.0
+WORKDIR seed
+COPY ./people_sample.txt . 
+COPY ./seed_script.sh .

@@ -1,0 +1,22 @@
+CREATE PRIMARY INDEX ON `people-sample`;
+
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('66858227245', { 'firstname': 'Sophia', 'lastname': 'Pinto Santos' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('32985302803', {'firstname': 'Mariana', 'lastname': 'Silva Dias' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('15243933554', {'firstname': 'Clara', 'lastname': 'Martins Ribeiro' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('48403416130', {'firstname': 'Rafael', 'lastname': 'Pinto Santos' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('04566721760', {'firstname': 'Gustavo', 'lastname': 'Lima Pinto' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('04684477410', {'firstname': 'Bianca', 'lastname': 'Alves Melo' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('17318480057', {'firstname': 'Mariana', 'lastname': 'Araujo Barros' }); 
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('48394129870', {'firstname': 'Letícia', 'lastname': 'Rocha Melo' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('86188195578', {'firstname': 'Emilly', 'lastname': 'Carvalho Araujo' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('19114525682', {'firstname': 'Guilherme', 'lastname': 'Costa Ferreira' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('10548690901', {'firstname': 'Victor', 'lastname': 'Almeida Martins' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('22525784162', {'firstname': 'Gabriela', 'lastname': 'Dias Souza' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('45987322537', {'firstname': 'Miguel', 'lastname': 'Ribeiro Martins' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('53374018823', {'firstname': 'Carlos', 'lastname': 'Pereira Ribeiro' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('00825246610', {'firstname': 'Renan', 'lastname': 'Barbosa Silva' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('93330148454', {'firstname': 'Carolina', 'lastname': 'Correia Dias' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('32881286321', {'firstname': 'Daniel', 'lastname': ' Rodrigues Almeida' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('67811776723', {'firstname': 'Ryan', 'lastname': 'Cardoso Barbosa' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('24416224710', {'firstname': 'Nicolas', 'lastname': 'Fernandes Dias' });
+INSERT INTO `people-sample` (KEY, VALUE) VALUES ('38716405498', {'firstname': 'Lavinia', 'lastname': 'Oliveira Souza' });

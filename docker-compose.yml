@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  webapp:
+    build:
+      context: .    
+      dockerfile: Dockerfile.webapp
+    ports:
+      - "8080:80"
+    depends_on:
+      - "couchbase-service"
+
+  couchbase-service:
+    build:
+      context: .    
+      dockerfile: Dockerfile.couchbase    
+    container_name: couchbase_server
+    ports:
+      - "8091:8091"

@@ -1,0 +1,33 @@
+﻿@model CouchbaseSample.Models.Person
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Edit</h1>
+
+<h2>Person</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+
+            <tr>
+                <td>@Model.Id</td>
+                <td>@Model.Firstname</td>
+                <td>@Model.Lastname</td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
